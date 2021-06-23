@@ -42,9 +42,8 @@ We are expecting you to implement a listing page and a detail page for the cars'
 
 
 ##### Detail Page Bonus #####
-* Vehicle photos could be show in slider
-* When a photo is tapped, it could be shown on a full screen.
-* A component for viewing user information and CTA for calling the user's phone number.
+* Vehicle photos could be show in slider.
+* When a photo is clicked, it could be shown on a full screen.
 
 
 ### arabam.com SandBox API ###
