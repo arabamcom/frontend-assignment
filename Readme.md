@@ -26,7 +26,7 @@ We are expecting you to implement a listing page and a detail page for the cars'
 ### Listing Page ###
 * We expect to see the list of vehicles on the page.
 * Vehicle image that returns from the listing response must also be shown in the list.
-* We expect to see pagination is implemented on the list page
+* We expect to see previous/next is implemented on the list page.
 * The user should be directed to the detail page when selecting one of the results listed in the vehicle list.
 
 
