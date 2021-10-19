@@ -26,9 +26,8 @@ We are expecting you to implement a listing page and a detail page for the cars'
 ### Listing Page ###
 * We expect to see the list of vehicles on the page.
 * Vehicle image that returns from the listing response must also be shown in the list.
-* We expect to see previous/next is implemented on the list page.
 * The user should be directed to the detail page when selecting one of the results listed in the vehicle list.
-
+* The user can change the number of adverts on the page (20 or 50 adverts)
 
 ##### Listing Page Bonus #####
 * You can apply filters for the list page. For example,  `minDate `,  `maxDate`, or  `categoryId` etc. You can find it in our API docs. For the design concern, you can use a modal presentation view for the filter page.
@@ -71,7 +70,7 @@ curl -X GET "http://sandbox.arabamd.com/api/v1/detail?id=15207658" -H "accept: t
 
 ### Tips
 
-* For pagination feature, you can use the  `take` and  `skip` parameters shown in the API docs.
+* For the adverts count feature, you can use the  `take` parameter shown in the API docs. (e.g take=50 or take=20)
 * For vehicle image urls, you need to replace {0} with predefined resolutions. If you replace {0} with 800x600 you will get vehicle's image with 800x600 resolution. Inspect API docs carefully for the predefined resolution values.
 * For the design concern, you can browse through our website or similar websites and be inspired by it. Be creative 🤸‍♂️
 
